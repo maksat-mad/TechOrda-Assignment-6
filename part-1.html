@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Part 1</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/part-1.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.0"></script>
+</head>
+<body>
+<div class="container">
+    <h1>Part 1</h1>
+</div>
+
+<div class="container container-button-exit">
+    <button onclick="location.href='index.html'" class="button button4">Exit</button>
+</div>
+
+<div class="container">
+    <button id="start-video" class="button button2">Start Video</button>
+    <button id="stop-video" class="button button3">Stop Video</button>
+</div>
+
+<div class="container">
+    <video id="video" width="1000" height="700" autoplay playsinline></video>
+    <canvas id="canvas"></canvas>
+</div>
+
+<script src="./js/part-1.js"></script>
+</body>
+</html>

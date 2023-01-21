@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Part 2</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/part-2.css">
+</head>
+<body>
+<div class="container">
+    <h1>Part 2</h1>
+</div>
+<div class="secret">
+    <div class="container container-button-exit">
+        <button onclick="location.href='index.html'" class="button button4">Exit</button>
+    </div>
+</div>
+
+<div class="container">
+    <h2 id="upload-text">Upload file by clicking this button</h2>
+    <button id="open-modal" class="button button2">Upload File</button>
+</div>
+
+<div id="scammed">
+    <div class="container">
+        <div id="scam-photos"></div>
+    </div>
+</div>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2>Upload file</h2>
+        </div>
+        <div class="modal-body">
+            <div id="entertain-message">
+                <div class="container">
+                    <h2 id="upload-message"></h2>
+                </div>
+            </div>
+            <div class="container">
+                <input type="file" id="file" name="file">
+                <button id="upload" class="button button2">Upload File</button>
+            </div>
+            <div id="error-message">
+                <div class="container red">
+                    <h3>(!) Please upload file</h3>
+                </div>
+            </div>
+            <div id="success-message">
+                <div class="container green">
+                    <h3>File uploaded successfully</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/part-2.js"></script>
+</body>
+</html>

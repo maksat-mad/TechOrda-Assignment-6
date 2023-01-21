@@ -1,0 +1,7 @@
+video, canvas {
+    transform: scaleX(-1);
+}
+
+#stop-video, canvas {
+    display: none;
+}
